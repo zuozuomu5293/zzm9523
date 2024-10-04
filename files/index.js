@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 const { exec, execSync } = require('child_process');
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;        
-const UUID = process.env.UUID || '6be266a9-109c-4826-a188-ebb08f8c41ea'; //
+const UUID = process.env.UUID || '62252678-bec9-4eee-9456-095aa59b2bd1'; //
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.zzx.free.hr';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOGI5NzI0MDgwZTU1ZTcwMzcwZmI3NDI4NzkyMmYzMWIiLCJ0IjoiOGNlY2VlYzQtYzZiNi00N2VkLThhZjItY2I4MThmMDkxZWJkIiwicyI6Ik5XWTFNV1ZsWm1NdFpEYzJZeTAwWkdSaExUbGtZall0TnpneVpqZ3haVE00WkRBNSJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ch01.roseonlyone.eu.org';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjM4M2RmYmQxY2JjY2IxMDMzODBlOWIwMTE3MDFiMzAiLCJ0IjoiYWYwNDUzNzgtOTgyMi00N2QyLWFkM2UtNzkwN2IxZTJjZTczIiwicyI6IlpHUmhNVE0yWlRjdFlqSTNZeTAwTldFd0xUZzBPVFl0WkRnNFkyWXhZVEpsWW1VNCJ9';
 const CFIP = process.env.CFIP || 'na.ma';
 const NAME = process.env.NAME || 'Choreo';
 
