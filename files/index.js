@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '62252678-bec9-4eee-9456-095aa59b2bd1'; //
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ch01.roseonlyone.eu.org';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYjM4M2RmYmQxY2JjY2IxMDMzODBlOWIwMTE3MDFiMzAiLCJ0IjoiYWYwNDUzNzgtOTgyMi00N2QyLWFkM2UtNzkwN2IxZTJjZTczIiwicyI6IlpHUmhNVE0yWlRjdFlqSTNZeTAwTldFd0xUZzBPVFl0WkRnNFkyWXhZVEpsWW1VNCJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || '';
 const CFIP = process.env.CFIP || 'na.ma';
 const NAME = process.env.NAME || 'Choreo';
 
